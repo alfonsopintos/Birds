@@ -15,6 +15,9 @@
 		BEA177242044848E00BB6FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA177232044848E00BB6FB6 /* Assets.xcassets */; };
 		BEA177272044848E00BB6FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA177252044848E00BB6FB6 /* LaunchScreen.storyboard */; };
 		BEA1772F204487C700BB6FB6 /* BirdTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = BEA1772E204487C700BB6FB6 /* BirdTileSet.sks */; };
+		BEA8D6382045BB95000EAEAC /* GameCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8D6372045BB95000EAEAC /* GameCamera.swift */; };
+		BEA8D63A2045C2CF000EAEAC /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8D6392045C2CF000EAEAC /* Configuration.swift */; };
+		BEA8D63C2045C6D0000EAEAC /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8D63B2045C6D0000EAEAC /* Bird.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		BEA177262044848E00BB6FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEA177282044848E00BB6FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEA1772E204487C700BB6FB6 /* BirdTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BirdTileSet.sks; sourceTree = "<group>"; };
+		BEA8D6372045BB95000EAEAC /* GameCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCamera.swift; sourceTree = "<group>"; };
+		BEA8D6392045C2CF000EAEAC /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		BEA8D63B2045C6D0000EAEAC /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		BEA177152044848E00BB6FB6 /* Birds */ = {
 			isa = PBXGroup;
 			children = (
+				BEA177372045BB3E00BB6FB6 /* Custom Nodes */,
 				BEA1773620448C3000BB6FB6 /* TileSets */,
 				BEA1773520448C0A00BB6FB6 /* UI */,
 				BEA1773420448C0300BB6FB6 /* Scenes */,
@@ -74,6 +81,7 @@
 			children = (
 				BEA177162044848E00BB6FB6 /* AppDelegate.swift */,
 				BEA177282044848E00BB6FB6 /* Info.plist */,
+				BEA8D6392045C2CF000EAEAC /* Configuration.swift */,
 			);
 			name = Templates;
 			sourceTree = "<group>";
@@ -111,6 +119,15 @@
 				BEA1772E204487C700BB6FB6 /* BirdTileSet.sks */,
 			);
 			name = TileSets;
+			sourceTree = "<group>";
+		};
+		BEA177372045BB3E00BB6FB6 /* Custom Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8D6372045BB95000EAEAC /* GameCamera.swift */,
+				BEA8D63B2045C6D0000EAEAC /* Bird.swift */,
+			);
+			name = "Custom Nodes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +205,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEA1771D2044848E00BB6FB6 /* GameScene.swift in Sources */,
+				BEA8D63A2045C2CF000EAEAC /* Configuration.swift in Sources */,
 				BEA1771F2044848E00BB6FB6 /* GameViewController.swift in Sources */,
+				BEA8D6382045BB95000EAEAC /* GameCamera.swift in Sources */,
+				BEA8D63C2045C6D0000EAEAC /* Bird.swift in Sources */,
 				BEA177172044848E00BB6FB6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
